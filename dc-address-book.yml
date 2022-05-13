@@ -1,7 +1,8 @@
-version: 3.9
+version: "3.3"
 services:
   address:
     build: .
+    image: django_address_book:v1
     volumes:
       - .:/code
     ports:
